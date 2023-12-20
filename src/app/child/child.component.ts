@@ -26,8 +26,6 @@ export class ChildComponent implements AfterViewInit {
     @ViewChild('healer') healer!: TemplateRef<any>;
     @ViewChild('rogue') rogue!: TemplateRef<any>;
 
-    styleChange!: {backgroundColor: string, fontWeight: string};
-
     position: string = 'relative';
     left: string = '2';
 
